@@ -1,7 +1,7 @@
 # Planning
 
 Planning is documented in this folder with markdown files that have a 3 digit prefix. The \_plan.sh
-script is used to create a new plan ex: $ \_plan.sh "Input Form Improvements"
+script is used to create a new plan ex: $ \_plan.sh new "Input Form Improvements"
 
 - new plans are created with a "draft" status
 - docs/plans/draft is the location for plans with a "draft" status
