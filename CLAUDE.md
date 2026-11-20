@@ -20,6 +20,8 @@ uv run window-selector
 
 Read: docs/plans/README.md
 
+- Work done towards specifications outlined in a plan should be done in a branch that is not "main"
+
 ## Rules
 
 - Don't introduce dependencies without asking.
