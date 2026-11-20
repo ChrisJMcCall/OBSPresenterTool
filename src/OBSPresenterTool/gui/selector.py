@@ -236,7 +236,7 @@ class WindowSelector(QWidget):
     def _on_deselect(self) -> None:
         """Clicking the selected row again clears the selection and blanks the source's window."""
         try:
-            obs_client.switch_window(_get_client(), self.source, 0)
+            obs_client.set_window(_get_client(), self.source, 0)
             print("Cleared window (blank)")
         except Exception as e:
             _drop_client()
